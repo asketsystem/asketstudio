@@ -42,6 +42,7 @@ const Info = styled.div`
 `;
 
 const Button = styled.button`
+    border: 2px solid white;
     padding: 15px;
     background-color: darkblue;
     color: white;
