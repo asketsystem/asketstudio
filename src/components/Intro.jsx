@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import man from '../img/man .png';
+import AnimatedShapes from './AnimatedShapes';
 
 
 const Container = styled.div`
@@ -86,6 +87,7 @@ const Intro = () => {
             </Info>
             </Left>
         <Right><Image src={man}/></Right>
+        <AnimatedShapes/>
     </Container>;
 }
 
